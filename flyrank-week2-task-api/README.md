@@ -51,3 +51,12 @@ HTTP/1.1 201 Created
 ## Swagger UI
 
 ![Swagger UI](swagger.png)
+**4. Push to GitHub:**
+```bash
+git add requirements.txt .gitignore README.md
+git commit -m "Stage 6: publish and docs"
+
+# Create repo on GitHub first, then link and push
+git remote add origin https://github.com/your-username/flyrank-week2-task-api.git
+git branch -M main
+git push -u origin main
